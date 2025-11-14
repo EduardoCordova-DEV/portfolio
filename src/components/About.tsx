@@ -1,6 +1,6 @@
 import { Card } from './ui/card'
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog'
-import { Code2, Bot, Disc3, SquareTerminal } from 'lucide-react'
+import { Code2, Bot, SquareTerminal } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import profileImage from '@/assets/images/profile.png'
 
@@ -23,11 +23,11 @@ const About = () => {
       title: t('about.ai'),
       description: t('about.aiDesc'),
     },
-    {
-      icon: Disc3,
-      title: t('about.music'),
-      description: t('about.musicDesc'),
-    },
+    // {
+    //   icon: Disc3,
+    //   title: t('about.music'),
+    //   description: t('about.musicDesc'),
+    // },
   ]
 
   return (
